@@ -8,6 +8,10 @@ const fetchuser = require("../middleware/fetchuser");
 
 const JWT_SECRET = "hellotest1@";
 
+// test api 
+router.get("/test", (req, res) => {
+  res.json({ message: "API is working fine!" });
+});
 // SignUp end point POST "api/auth/createUser" 
 router.post(
   "/signup",
