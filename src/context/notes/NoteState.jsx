@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import NoteContext from "./noteContext";
 
-const host = "http://localhost:5000/api/";
+const host = "https://cloudnote-backend-huec.onrender.com/api/";
 const authToken =
 "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjdiYzQ1YTljMThjNGM2OTQwNGI5YTZkIn0sImlhdCI6MTc0MjMzNTk0OH0.qWwAegdanQcA2dLQ0TotQmHGoC3W5P_5PYDhSG46fo4";
 const NoteState = (props) => {
